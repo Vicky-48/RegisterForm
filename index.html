@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div class="box">
+    <h2>Create Account</h2>
+<form>
+<div class="name">
+    <div class="name1">
+        <label>Firstname*</label><br>
+        <input type="text" name="username" placeholder="enter your firstname" id="firstname">
+    </div>
+    <div class="name1">
+        <lable id="color">Lastname*</lable><br>
+        <input type="text" name="username1" placeholder="enter your lastname" id="lastname">
+    </div>
+</div><br>
+<div class="email">
+        <label>Email*</label><br>
+        <input type="email" name="email" placeholder="enter your email" id="email1"> 
+</div><br>
+<div class="password">
+    <div class="password1">
+        <label>Password*</label><br>
+        <input type="password" name="password" placeholder="enter your password" id="password">
+    </div>
+    <div class="password1">
+        <lable id="color">Confirm Password*</lable><br>
+        <input type="password" name="Confirmpassword" placeholder="enter your password agin" id="Confirmpassword">
+    </div>
+</div><br>
+<div class="mark">
+    <div class="mark1">
+        <label>Gender*</label><br>
+        <input type="radio"  id="male" value="male"><label for="male">Male</label>
+        <input type="radio"  id="female" value="female"><label for="female">Female</label>
+    </div>
+    <div class="mark1">
+        <label>*Hobbies</label><br>
+        <input type="checkbox"  id="Music" value="Music"><label for="Hobbies1">Music</label>
+        <input type="checkbox"  id="Sports" value="Sports"><label for="Hobbies2">Sports</label>
+        <input type="checkbox"  id="Travel" value="Travel"><label for="Hobbies3">Travel</label>
+        <input type="checkbox"  id="Movie" value="Movie"><label for="Hobbies4">Movie</label>
+    </div>
+</div><br>
+<div class="income">
+    <div class="income1">
+        <label>Source of Income</label><br>
+        <select name="Income" id="Source">
+        <option value="Employed">Employed</option>
+        <option value="Businees">Businees</option>
+        <option value="Student">Student</option>
+        </select>
+    </div>
+    <div class="income1">
+        <Label>Income</Label><br>
+        <input type="range" id="vol" name="vol" min="1000" max="5000">
+        <label for="im">20K</label>
+    </div>
+</div><br>
+<div class="profile">
+    <div class="profile1">
+        <label>Upload Profile Picture</label>
+        <input type="file" placeholder="No file chosen" id="Picture" accept=".png ,.jpg">
+    </div>
+    <div class="profile1">
+        <label>Age</label>
+        <input type="number"  id="age" name="age">
+    </div>
+</div><br>
+<div class="bio">
+        <label>Bio</label><br>
+        <textarea  id="message"  rows="3" cols="68"></textarea>
+</div><br>
+<button class="Create">Create</button> 
+    </form>
+   </div>
+   
+</body>
+</html>
